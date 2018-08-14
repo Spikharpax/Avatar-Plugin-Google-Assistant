@@ -51,6 +51,9 @@ Vérifiez que vous avez les versions requises d'Avatar Serveur et Clients.
 <BR><BR>
  
 ## Versions
+Version 1.1 
+- Mise à jour mineure pour la compatibilité avec Avatar 3.0
+
 Version 1.0 
 - Version Released
 
