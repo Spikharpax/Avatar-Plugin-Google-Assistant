@@ -28,18 +28,15 @@ exports.init = function(){
 	
 	Avatar.listen('GoogleHome', function(data){
 		formatSentence (data.sentence, (sentence) => {
-			start(data, data.client, sentence, (text, continueConversation) => {
-					if (text)
-						return Avatar.speak(text, data.client, function() {
-							if (!continueConversation) Avatar.Speech.end(data.client);
-						});
-					else if (!continueConversation)
-						Avatar.Speech.end(data.client);
+			start(data, data.client, sentence, (text, continueConversation) => {	
+				data.callback(text, (!continueConversation) ? false : true);	
 			}, true);
 		});
 	});
 
 }
+
+
 
 
 exports.action = function(data, callback){
