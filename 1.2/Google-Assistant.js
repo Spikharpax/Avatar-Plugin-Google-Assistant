@@ -185,7 +185,7 @@ function start (data, client, sentence, callback, trigger) {
 			callback();
 		  } else if (continueConversation && textFromAssistant && !searchForNoAnswer(textFromAssistant)) {
 				info('The conversation continues...'.green);
-				ConversationNext(conversation, data, textFromAssistant, client, callback);
+				ConversationNext(conversation, data, textFromAssistant, client, callback, trigger);
 		  } else {
 			info('Conversation Complete'.green);
 			isNew = true;
@@ -215,7 +215,7 @@ function start (data, client, sentence, callback, trigger) {
 
 
 
-function ConversationNext(conversation, data, tts, client, callback) {
+function ConversationNext(conversation, data, tts, client, callback, trigger) {
 
 	ttsToWav (client, tts, (filename) => {
 
@@ -251,7 +251,7 @@ function ConversationNext(conversation, data, tts, client, callback) {
 					var answer = answer.split(':')[1];
 					info('answer:', answer.yellow);
 					isNew = false;
-					return start (data, client, answer, callback);
+					return start (data, client, answer, callback, trigger);
 				}
 
 				Avatar.speak(Config.modules['Google-Assistant'].noAskmeResponse, client, function () {
