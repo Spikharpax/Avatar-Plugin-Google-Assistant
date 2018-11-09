@@ -51,6 +51,10 @@ Vérifiez que vous avez les versions requises d'Avatar Serveur et Clients.
 <BR><BR>
  
 ## Versions
+Version 1.2
+- Ajout d'un listen dans la méthode init
+- Ajout d'un répertoire assets pour une description et une image (Avatar 3.0)
+
 Version 1.1 
 - Mise à jour mineure pour la compatibilité avec Avatar 3.0
 
