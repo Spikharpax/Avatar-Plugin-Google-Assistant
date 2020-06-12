@@ -68,3 +68,9 @@ Version 1.1
 
 Version 1.0
 - Version Released
+
+***
+## ★ License
+Logiciel libre sous [licence MIT](https://github.com/Spikharpax/A.V.A.T.A.R/blob/master/LICENSE)
+
+Copyright (c) 2020 A.V.A.T.A.R - Stéphane Bascher
