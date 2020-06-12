@@ -45,7 +45,7 @@ Suivez la procédure de configuration dans la documentation disponible dans le p
 
 ***
 ## ★ Configuration et utilisation
-* Ouvrez Studio A.V.A.T.A.R
+* Ouvrez A.V.A.T.A.R Studio
 * Cliquez sur l'icône du plug-in Google-Assistant
 * Dans son menu déroulant, cliquez sur _Documentation_
   - Suivez la procédure de configuration
@@ -58,6 +58,7 @@ Version 2.0 (12-06-2020)
 - Ajout des réponses audio de l'assistant Google
 - Refonte de l'intégration Sonos (audio en streaming)
 - Refonte du plug-in pour gains de rapidité
+- Mise à jour de la documentation
 
 Version 1.2
 - Ajout d'un listen dans la méthode init
