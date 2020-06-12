@@ -40,8 +40,7 @@ Suivez la procédure de configuration dans la documentation disponible dans le p
 
 ### Compatibilité
 - [X] Avatar Serveur >= 3.4
-- [X] Avatar Client >= 1.1 (Enceintes PC)
-- [X] Avatar Client >= 1.2 (Enceintes Wifi avec plug-in SonosPlayer version >= 1.6)
+- [X] Avatar Client >= 1.2 (en cours d'import...)
 
 ***
 ## ★ Configuration et utilisation
