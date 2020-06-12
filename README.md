@@ -17,8 +17,8 @@ Un accès à de très nombreuses actions sans aucun développement :
 - Des blagues à gogo ?
 - Un Bot avec lequel discuter ?
 
-Mais vous voulez peut-être aussi contrôler vos appareils connectés ?
-- Aucun problème, tous les appareils que vous pouvez connecter à l'assistant Google peuvent être aussi pilotés par ce plug-in.
+Mais vous voulez peut-être aussi contrôler vos appareils connectés et sans développement ?
+- Aucun problème, tous les appareils que vous pouvez connecter à l'assistant Google peuvent être aussi pilotés par ce plug-in. Connectez-le avec l'assistant Google, dictez les règles associés à l'appareil, c'est tout !
 
 Les règles vocales associées aux appareils connectés de l'assistant Google sont trop limitées ?
 - Ajoutez vos propres règles et vos propres réponses vocales (un exemple [içi](https://github.com/Spikharpax/Avatar-Plugin-Nest))!   
@@ -35,7 +35,7 @@ Et bien sûr, tout ça en gardant tout le potentiel d'A.V.A.T.A.R !
 
 Vérifiez que vous avez les versions requises d'Avatar Serveur et Clients.
 
-* Téléchargez le projet depuis la bibliothèque de plug-ins A.V.A.T.A.R
+* Téléchargez le projet depuis la bibliothèque de plug-ins A.V.A.T.A.R<br>
 Suivez la procédure de configuration dans la documentation disponible dans le plugin.
 
 ### Compatibilité
@@ -58,10 +58,13 @@ Version 2.0 (12-06-2020)
 - Ajout des réponses audio de l'assistant Google
 - Refonte de l'intégration Sonos (audio en streaming)
 - Refonte du plug-in pour gains de rapidité
+
 Version 1.2
 - Ajout d'un listen dans la méthode init
 - Ajout d'un répertoire assets pour une description et une image (Avatar 3.0)
+
 Version 1.1
 - Mise à jour mineure pour la compatibilité avec Avatar 3.0
+
 Version 1.0
 - Version Released
