@@ -40,7 +40,7 @@ Suivez la procédure de configuration dans la documentation disponible dans le p
 
 ### Compatibilité
 - [X] Avatar Serveur >= 3.4
-- [X] Avatar Client >= 1.2 (en cours d'import...)
+- [X] Avatar Client >= 1.2
 
 ***
 ## ★ Configuration et utilisation
